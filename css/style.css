@@ -1,0 +1,59 @@
+body{font-family: 'Nunito', sans-serif; background-color: #000; color: rgb(212, 212, 212);}
+body.authentication-bg {
+    background-image: url(../img/bg-pattern-light-tu-orden.svg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .box-body {
+    border-radius: 36px;
+    background-color: #161616;
+    /* box-shadow: 10px 15px 30px #2d2d2d; */
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  [class^="btn-"] {
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 25px -10px transparent;
+    display: inline-block;
+    color: transparent;
+    cursor: pointer;
+    font-size: .90rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+
+  .btn-edit {
+    background-color: #32be8f;
+    color: #fff;
+    padding: .675rem 1.25rem;
+    box-shadow: 0 6px 25px -10px #000;
+    display: inline-block;
+  }
+  /* .btn-edit::before {
+    font-family: "Material Icons";
+    content: "\e150";
+    margin-right: .12rem;
+    font-size: 1rem;
+  } */
+
+  .btn-edit:hover {
+    transform: translatey(-10px);
+    background-color: #23aa7d;
+    color: white;
+  }
+
+  .card{
+    background-color: #000;
+    border-color: rgba(0, 0, 0, 0.175);
+    color: #fff;
+  }
+
+  .mb-big{margin-bottom: 4.5rem}
